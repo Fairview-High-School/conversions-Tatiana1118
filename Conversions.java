@@ -74,7 +74,7 @@ public class Conversions
             System.out.println(milliliters + " millimeters is " + ounces + " ounces");
         }
         if (selection == 7)
-    }   { 
+       { 
            System.out.println("Enter Millimeters: ");
            double millimeters = keyboard.nextDouble();
            keyboard.nextLine();
@@ -95,7 +95,7 @@ public class Conversions
             double inch = keyboard.nextDouble();
             keyboard.nextLine();
             double micrometer = inch * 25.4;
-            System.out.println(inch + " inch is " + micrometers + " micrometers");
+            System.out.println(inch + " inch is " + micrometer + " micrometers");
         }
         if (selection == 10)
         {  
@@ -116,4 +116,4 @@ public class Conversions
 
         
         
-    }
+    
